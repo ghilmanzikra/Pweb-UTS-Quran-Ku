@@ -1,0 +1,57 @@
+* {
+  font-family: poppins, sans-serif;
+}
+
+.carousel-custom{
+  max-width: 60%;
+  max-height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-caption h3,
+.carousel-caption p {
+  bottom: 50% !important;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.carousel-custom img{
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.navigasibar{
+  background: linear-gradient(to bottom right, #d4f5d1, #d4f5d1, #d4f5d1, #d4f5d1, #d4f5d1, #d4f5d1, #ffffff); 
+}
+
+.home{
+  background-image: url(../assets/images/gambar2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background: linear-gradient(to bottom right, #d4f5d1, #ffffff);
+}
+
+.hover-scale:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 128, 0, 0.5);
+}
+
+.bacaalquran{
+  background: linear-gradient(to bottom right, #d4f5d1, #ffffff);  
+}
+
+.juzamma{
+  background: linear-gradient(to bottom right, #d4f5d1, #ffffff);  
+}
+
+.asmaulhusna{
+  background: linear-gradient(to bottom right, #d4f5d1, #ffffff);  
+}
+
+.surahdetail{
+  background: linear-gradient(to bottom right, #d4f5d1, #ffffff);  
+}
