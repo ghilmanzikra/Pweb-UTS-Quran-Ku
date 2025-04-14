@@ -55,3 +55,13 @@
 .surahdetail{
   background: linear-gradient(to bottom right, #d4f5d1, #ffffff);  
 }
+
+.card-hover {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 8px 16px rgba(0, 128, 0, 0.2);
+  border-color: #198754; /* Warna hijau bootstrap */
+}

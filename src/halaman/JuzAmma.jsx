@@ -45,7 +45,7 @@ function JuzAmma() {
                     {surahList.map((surah) => (
                         <Col key={surah.number} className="mb-3">
                             <Link to ={`/surah/${surah.number}`} className="text-decoration-none">
-                            <Card className="h-100 shadow-sm border-success rounded-3">
+                            <Card className="h-100 shadow-sm border-success card-hover rounded-3">
                                 <Card.Body>
                                     <Card.Title className="text-start fw-bold text-success">
                                         {surah.number}.{surah.englishName}

@@ -34,7 +34,7 @@ function AsmaulHusna() {
                 <Row xs={1} md={2} lg={3}>
                     {names.map((name) => (
                         <Col key={name.number} className="mb-3">
-                            <Card className="h-100 shadow-sm border-success rounded-3">
+                            <Card className="h-100 shadow-sm border-success card-hover rounded-3">
                                 <Card.Body>
                                     <Card.Title className="text-center fw-bold text-success">
                                         {name.number}. {name.name}

@@ -111,7 +111,7 @@ function BacaAlQuran() {
                     {filteredSurah.map((surah) => (
                         <Col key={surah.number} className="mb-3">
                             <Link to={`/surah/${surah.number}`} className="text-decoration-none">
-                                <Card className="h-100 shadow-sm border-success">
+                                <Card className="h-100 shadow-sm border-success card-hover">
                                     <Card.Body>
                                         <Card.Title className="fw-bold text-success">
                                             {surah.number}. {surah.englishName}
