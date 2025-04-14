@@ -10,7 +10,6 @@ import Navbar from './komponen/NavigasiBar';
 import Footer from './komponen/Footer';
 import SurahDetail from './halaman/SurahDetail';
 
-
 function App() {
   
   return (
@@ -20,8 +19,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/quran" element={<BacaAlQuran />} />
         <Route path="/juzamma" element={<JuzAmma />} />
-        <Route path="/asmaulhusna" element={<AsmaulHusna />} />
         <Route path="/surah/:nomor" element={<SurahDetail />} />
+        <Route path="/asmaulhusna" element={<AsmaulHusna />} />
       </Routes>
       <Footer />
     </Router>
